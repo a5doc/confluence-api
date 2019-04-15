@@ -1,24 +1,34 @@
 {
-  "name": "confluence-api",
-  "version": "1.4.0",
-  "description": "Confluence API wrapper for NodeJS",
-  "main": "./lib/confluence.js",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec",
-    "create-docs": "jsdoc2md lib/confluence.js > api.md"
-  },
-  "repository": {
+  "_from": "git+https://github.com/a5doc/confluence-api.git",
+  "_id": "confluence-api@1.4.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/confluence-api",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "http://github.com/johnpduane/confluence-api.git"
+    "raw": "confluence-api@git+https://github.com/a5doc/confluence-api.git",
+    "name": "confluence-api",
+    "escapedName": "confluence-api",
+    "rawSpec": "git+https://github.com/a5doc/confluence-api.git",
+    "saveSpec": "git+https://github.com/a5doc/confluence-api.git",
+    "fetchSpec": "https://github.com/a5doc/confluence-api.git",
+    "gitCommittish": null
   },
-  "keywords": [
-    "atlassian",
-    "confluence",
-    "api",
-    "wiki",
-    "node.js"
+  "_requiredBy": [
+    "/md2confluence"
   ],
-  "author": "John Duane <johnpduane@gmail.com>",
+  "_resolved": "git+https://github.com/a5doc/confluence-api.git#f568429eff846f0ca34fb76ca29bcc5c4f3def59",
+  "_spec": "confluence-api@git+https://github.com/a5doc/confluence-api.git",
+  "_where": "C:\\Users\\msato\\projects\\butashabu\\transmission-doc.wiki\\node_modules\\md2confluence",
+  "author": {
+    "name": "John Duane",
+    "email": "johnpduane@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/johnpduane/confluence-api/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "John Duane",
@@ -57,17 +67,34 @@
       "url": "https://github.com/blimmer"
     }
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/johnpduane/confluence-api/issues"
+  "dependencies": {
+    "superagent": "^3.8.3"
   },
-  "homepage": "https://github.com/johnpduane/confluence-api",
+  "deprecated": false,
+  "description": "Confluence API wrapper for NodeJS",
   "devDependencies": {
     "chai": "*",
     "jsdoc-to-markdown": "^4.0.1",
     "mocha": "*"
   },
-  "dependencies": {
-    "superagent": "^3.8.3"
-  }
+  "homepage": "https://github.com/johnpduane/confluence-api",
+  "keywords": [
+    "atlassian",
+    "confluence",
+    "api",
+    "wiki",
+    "node.js"
+  ],
+  "license": "MIT",
+  "main": "./lib/confluence.js",
+  "name": "confluence-api",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/johnpduane/confluence-api.git"
+  },
+  "scripts": {
+    "create-docs": "jsdoc2md lib/confluence.js > api.md",
+    "test": "mocha --reporter spec"
+  },
+  "version": "1.4.0"
 }
